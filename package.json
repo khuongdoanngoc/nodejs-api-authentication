@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-api-authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khuongdoanngoc/nodejs-api-authentication.git"
+  },
+  "author": "Khuong Doan Ngoc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khuongdoanngoc/nodejs-api-authentication/issues"
+  },
+  "homepage": "https://github.com/khuongdoanngoc/nodejs-api-authentication#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.1",
+    "nodemon": "^2.0.22",
+    "passport": "^0.6.0",
+    "passport-facebook-token": "^4.0.0",
+    "passport-google-plus-token": "^2.1.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0"
+  }
+}
